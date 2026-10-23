@@ -1,0 +1,19 @@
+node_modules
+.next
+out
+next-env.d.ts
+*.tsbuildinfo
+
+# Local env
+.env*.local
+
+# Personal files you may not want in the repo — delete these lines to commit them
+/public/cv.pdf
+/public/portrait.webp
+/public/avatar/*.glb
+
+# Hero source footage and build output (large; regenerate with scripts/build-hero-assets.py)
+/intro.mp4
+/hero-preview.png
+/public/hero/hero.mp4
+/public/hero/hero.webm
